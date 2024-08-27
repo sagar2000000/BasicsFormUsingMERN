@@ -1,0 +1,25 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+.navbar{
+  
+  height:50px;
+  width: 100%;
+  background-color: rgb(246, 210, 144);
+}
+.navbar ul{
+  
+  display: flex;
+  justify-content: space-between;
+}
+.navbar ul li{
+  font-size: 20px;
+  padding: 2px;
+  
+ list-style: none;
+}
+.navbar ul li:hover{
+  cursor: pointer;
+  color: green;
+}
